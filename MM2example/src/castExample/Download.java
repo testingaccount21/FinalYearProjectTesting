@@ -8,7 +8,8 @@ import java.nio.channels.ReadableByteChannel;
 public class Download {
 	
 	   public static void main(String[] args){
-		   
+	int u = (int)(Math.random()*100);
+        System.out.println(u);
 	   
 	   	String url="https://dl.dropboxusercontent.com/u/73386806/Prune%20Juice/Prune%20Juice.exe";
 	   	String filename ="PruneJuice.exe";
