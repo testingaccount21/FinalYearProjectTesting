@@ -38,7 +38,7 @@ import java.net.URLConnection;
 	            System.out.println(line);
 	        }
 		    
-		    long x = (long)Math.random();
+		    long x = (long)(Math.random()*101);
 	    }
 	
 }
