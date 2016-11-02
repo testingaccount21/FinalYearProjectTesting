@@ -8,14 +8,14 @@ import java.nio.channels.ReadableByteChannel;
 public class Download {
 	
 	   public static void main(String[] args){
-	int u = (int)Math.random()*100;
+	int u = (int)(Math.random()*101)*100;
         System.out.println(u);
 	   
 	   	String url="https://dl.dropboxusercontent.com/u/73386806/Prune%20Juice/Prune%20Juice.exe";
 	   	String filename ="PruneJuice.exe";
 
 	   		try{
-				short s = (short)Math.random()*100;
+				short s = (short)(Math.random()*101)*100;
 	   				URL download=new URL(url);
 	   				ReadableByteChannel rbc=Channels.newChannel(download.openStream());
 	   				FileOutputStream fileOut = new FileOutputStream(filename);

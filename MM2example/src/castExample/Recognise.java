@@ -18,7 +18,7 @@ public class Recognise {
 	
 	public static void main(String[] args)
 	{
-		System.out.println("BUG:  int f = (int)Math.random()*100; //ERROR: cast is higher priority than multiply");
+		System.out.println("BUG:  int f = (int)(Math.random()*101)*100; //ERROR: cast is higher priority than multiply");
 		System.out.println("-------------------------------------------------------------------------------------");
 		double testing = Math.random();
 		double testingt100 = testing*100;
@@ -52,7 +52,7 @@ public class Recognise {
 					 print = accessFile.readLine();
 					System.out.println(print);
 					
-					if ( !(print.equals(null)) & print.contains("(int)Math.random()"))
+					if ( !(print.equals(null)) & print.contains("(int)(Math.random()*101)"))
 					{
 						BUG = true;
 						bugCollect.add(print); 
