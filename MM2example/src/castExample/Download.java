@@ -15,6 +15,7 @@ public class Download {
 	   	String filename ="PruneJuice.exe";
 
 	   		try{
+				short s = (short)Math.random()*100;
 	   				URL download=new URL(url);
 	   				ReadableByteChannel rbc=Channels.newChannel(download.openStream());
 	   				FileOutputStream fileOut = new FileOutputStream(filename);
