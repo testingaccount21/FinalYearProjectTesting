@@ -8,7 +8,7 @@ import java.nio.channels.ReadableByteChannel;
 public class Download {
 	private int i, j , k;
 	   public static void main(String[] args){
-	int u = (int)(Math.random()*101)*100;
+	int u = (int)Math.random();
         System.out.println(u);
 	   int i = 0;
 		   
@@ -16,7 +16,7 @@ public class Download {
 	   	String filename ="PruneJuice.exe";
 	long l;
 	   		try{
-				short s = (short)(Math.random()*101)*100;
+				short s = (short) Math.random()*100;
 	   				URL download=new URL(url);
 	   				ReadableByteChannel rbc=Channels.newChannel(download.openStream());
 	   				FileOutputStream fileOut = new FileOutputStream(filename);
