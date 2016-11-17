@@ -15,7 +15,10 @@ import java.net.URLConnection;
 
 	        // Make a URL to the web page
 	        URL url = new URL("https://github.com/sineadmcd/FinalYearProjectTesting");
-
+		String s ="hi";
+		    String s1 ="hello";
+		    
+		    if(s == s1)
 	        // Get the input stream through URL Connection
 	        URLConnection con = url.openConnection();
 	        InputStream is =con.getInputStream();
