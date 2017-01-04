@@ -17,7 +17,7 @@ import java.net.URLConnection;
 	        URL url = new URL("https://github.com/sineadmcd/FinalYearProjectTesting");
 		String s ="hi";
 		    String s1 ="hello";
-		    
+		    String==String;
 		    if(s == s1)
 	        // Get the input stream through URL Connection
 	        URLConnection con = url.openConnection();
