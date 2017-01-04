@@ -12,7 +12,7 @@ import java.net.URLConnection;
 
 	public class Pull  {
 	    public static void main(String[] args) throws IOException {
-
+			char[] chararray = new char[3];
 	        // Make a URL to the web page
 	        URL url = new URL("https://github.com/sineadmcd/FinalYearProjectTesting");
 		String s ="hi";
