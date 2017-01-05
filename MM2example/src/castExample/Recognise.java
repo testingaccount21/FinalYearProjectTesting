@@ -53,7 +53,7 @@ public class Recognise {
 					System.out.println(print);
 					
 					if ( !(print.equals(null)) & print.contains("(int)(Math.random()*101)"))
-					{
+\\equals method comparing different varTypes
 						BUG = true;
 						bugCollect.add(print); 
 						bugCount++;
