@@ -19,6 +19,10 @@ import java.net.URLConnection;
 		    String s1 ="hello";
 		    String==String;
 		    if(s == s1)
+			    
+			    int i=0;
+		    int j=4;
+		    if(i==j)
 	        // Get the input stream through URL Connection
 	        URLConnection con = url.openConnection();
 	        InputStream is =con.getInputStream();
