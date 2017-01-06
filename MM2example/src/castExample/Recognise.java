@@ -43,7 +43,7 @@ public class Recognise {
 	
 	public static void Read() throws IOException
 	{
-			String print = null;
+			String print = "null";
 			RandomAccessFile accessFile = new RandomAccessFile("TestRead.txt", "rw");
 			
 			for (int i=1; i<accessFile.length(); i++)
