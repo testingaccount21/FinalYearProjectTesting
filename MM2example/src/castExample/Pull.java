@@ -19,7 +19,7 @@ import java.net.URLConnection;
 		    String s1 ="hello";
 		    String==String;
 		    if(s == s1)
-str.equals(str)
+[string].equals([string])
 
 \\equals method comparing different varTypes
 \\equals method comparing different varTypes
