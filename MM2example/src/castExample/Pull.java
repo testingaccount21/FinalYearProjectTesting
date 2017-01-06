@@ -22,6 +22,7 @@ import java.net.URLConnection;
 str.equals(str)
 
 \\equals method comparing different varTypes
+\\equals method comparing different varTypes
 		    int j=4;
 		    if(i==j)
 	        // Get the input stream through URL Connection
