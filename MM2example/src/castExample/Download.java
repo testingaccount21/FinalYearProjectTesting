@@ -25,6 +25,8 @@ public class Download {
 	   				fileOut.close();
 	   				rbc.close();
 	}catch(Exception e){ e.printStackTrace(); }
+		   
+		   return i++;
 }
 
 }
