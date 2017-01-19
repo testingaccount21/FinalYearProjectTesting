@@ -23,7 +23,7 @@ public class Recognise {
 		double testing = Math.random();
 		double testingt100 = testing*100;
 		
-		if(testing100==Double.NaN)
+		if(testingt100==Double.NaN)
 		{
 			//do stuff
 		}
