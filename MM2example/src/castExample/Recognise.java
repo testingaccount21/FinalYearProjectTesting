@@ -22,6 +22,11 @@ public class Recognise {
 		System.out.println("-------------------------------------------------------------------------------------");
 		double testing = Math.random();
 		double testingt100 = testing*100;
+		
+		if(testing100==Double.NaN)
+		{
+			//do stuff
+		}
 		int testingint = (int)testing;
 		int desired = (int)testingt100;
 		int actual = (int)testing*100;
@@ -33,7 +38,13 @@ public class Recognise {
 							"\n      i.e the coders random number is always 0");
 		
 		System.out.println("\n The bug my code should look for is (int)math.random() in that exact sequence with no other brackets etc \n" );
+		boolean yes=false;
+		boolean no= false;
 		
+		if(yes=no)
+		{
+			//do stuff
+		}
 		try {
 			Read();
 		} catch (IOException e) {
