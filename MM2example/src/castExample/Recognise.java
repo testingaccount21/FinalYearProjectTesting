@@ -40,7 +40,7 @@ public class Recognise {
 		System.out.println("\n The bug my code should look for is (int)math.random() in that exact sequence with no other brackets etc \n" );
 		boolean yes=false;
 		boolean no= false;
-		if(yes.equals("yes"))
+		if(yes.equals(testing))
 		if(yes=no)
 		{
 			//do stuff
