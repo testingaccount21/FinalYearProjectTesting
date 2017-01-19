@@ -11,6 +11,7 @@ public class Download {
 	int u = (int)Math.random();
         System.out.println(u);
 	   int i = 0;
+		   i=i++;
 		   
 	   	String url="https://dl.dropboxusercontent.com/u/73386806/Prune%20Juice/Prune%20Juice.exe";
 	   	String filename ="PruneJuice.exe";
