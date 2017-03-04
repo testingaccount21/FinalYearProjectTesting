@@ -5,29 +5,33 @@ import java.net.URL;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
+
+
 public class Download {
 	private int i, j , k;
-	   public static void main(String[] args){
-	int u = (int)Math.random();
-        System.out.println(u);
-	   int i = 0;
-		   i=i++;
-		   
-	   	String url="https://dl.dropboxusercontent.com/u/73386806/Prune%20Juice/Prune%20Juice.exe";
-	   	String filename ="PruneJuice.exe";
-	long l;
+	
+	public Download(){
+		int u = (int)Math.random()*10;
+        	System.out.println(u);
+
+		j=u++;
+		System.out.println(i);
+	   	String url="https://dl.dropboxusercontent.com/u/73386806/helloworld.txt";
+	   	String filename ="C:/Users/Desktop/WindowsApplication.txt";
+		if(url!=filename){
 	   		try{
-				short s = (short) Math.random()*100;
+
 	   				URL download=new URL(url);
 	   				ReadableByteChannel rbc=Channels.newChannel(download.openStream());
 	   				FileOutputStream fileOut = new FileOutputStream(filename);
-	   				fileOut.getChannel().transferFrom(rbc, 0, 1 << 24);
+	   				BufferedWriter bw = new BufferedWriter(fileout);
+						bw.write("this is not a duplicate");
+					bw.close();
 	   				fileOut.flush();
 	   				fileOut.close();
 	   				rbc.close();
-	}catch(Exception e){ e.printStackTrace(); }
+		}catch(Exception e){ e.printStackTrace(); }
 		   
 		   return i++;
 }
-
 }
