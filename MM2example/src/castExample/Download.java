@@ -13,7 +13,7 @@ public class Download {
 	public Download(){
 		int u = (int)Math.random()*10;	//Consider changing this syntax to something like: (int)(Math.random()*x)
         	System.out.println(u);
-
+		if(i=j)
 		u++; 
   j=u;
 		System.out.println(i);
