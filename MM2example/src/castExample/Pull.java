@@ -11,7 +11,7 @@ import java.io.BufferedReader;
 	        URL url = new URL("https://github.com/sineadmcd/FinalYearProjectTesting");
 		String s ="hi";
 		String s1 ="hello";
-		if(s == s1){
+		if(s.equals(s1)){
 		    int j=4;
 	        // Get the input stream through URL Connection
 	        URLConnection con = url.openConnection();
@@ -20,7 +20,7 @@ import java.io.BufferedReader;
 		Scanner in = new Scanner()
 			
 		boolean userin = in.readline();
-		if(userin=predefined){
+		if(predefined==userin){
 	        BufferedReader br = new BufferedReader(new InputStreamReader(is));
 
 	        String line = null;
@@ -29,7 +29,7 @@ import java.io.BufferedReader;
 	        while ((line = br.readLine()) != null) {
 	            System.out.println(line);
 	        }
-			j= j++;
+			j=j+1;
 		}
 		    
 	    }
