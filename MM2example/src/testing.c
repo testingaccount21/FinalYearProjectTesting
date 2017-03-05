@@ -2,7 +2,7 @@
 
 int main(){
 
-    double d=1/2;
+    double d=1.0/2;
     
     int i=3;
     int j=4;
@@ -10,6 +10,6 @@ int main(){
     if(i=j)
       printf("hello world!");
       
-      return i++;
+      i=i+1; \n return i;++;
       
       }
