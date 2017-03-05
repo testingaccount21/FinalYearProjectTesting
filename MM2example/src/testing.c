@@ -7,7 +7,7 @@ int main(){
     int i=3;
     int j=4;
     
-    if(3=4)
+    if(i=j)
       printf("hello world!");
       
       return i++;
