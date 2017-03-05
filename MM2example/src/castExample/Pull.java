@@ -20,7 +20,7 @@ import java.io.BufferedReader;
 		Scanner in = new Scanner()
 			
 		boolean userin = in.readline();
-		if(usering=preefined){
+		if(userin=predefined){
 	        BufferedReader br = new BufferedReader(new InputStreamReader(is));
 
 	        String line = null;
