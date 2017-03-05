@@ -29,7 +29,7 @@ import java.io.BufferedReader;
 	        while ((line = br.readLine()) != null) {
 	            System.out.println(line);
 	        }
-			j=j++;
+			j= j++;
 		}
 		    
 	    }
