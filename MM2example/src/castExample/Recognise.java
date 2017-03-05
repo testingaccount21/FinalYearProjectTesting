@@ -40,7 +40,7 @@ public class Recognise {
 	                System.out.println("No match found");
 		    }
 		
-		if(testingt100==Double.NaN)
+		if(Double.isNaN(testingt100))
 		{
 			System.out.println("This is not a numbr");
 			bugCount++;
